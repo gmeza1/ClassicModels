@@ -8,4 +8,4 @@ ClassicModels Database and MySQL Queries
 
 ## MySQL Code (Folder)
   - ClassicModels Product Rankings.sql - contains code for [Product Rankings Tableu Dashboard](https://public.tableau.com/views/ClassicModelsProductRankings/ProductRankings?:language=en-US&:display_count=n&:origin=viz_share_link)
-  - ClassicModels Product Line Performance - contains code for [Annual Product Lines Performance Tableau Dashboard](https://public.tableau.com/views/ClassicModelsAnnualProductLinesPerformance/ProductLinesPerformance?:language=en-US&:display_count=n&:origin=viz_share_link)
+  - ClassicModels Product Line Performance.sql - contains code for [Annual Product Lines Performance Tableau Dashboard](https://public.tableau.com/views/ClassicModelsAnnualProductLinesPerformance/ProductLinesPerformance?:language=en-US&:display_count=n&:origin=viz_share_link)
