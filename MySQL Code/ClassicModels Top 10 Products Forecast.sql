@@ -17,7 +17,7 @@ WITH top_ten_products AS (  -- obtains top 10 products
 	ORDER BY quantity_ordered DESC
 	LIMIT 10
 )
-SELECT DISTINCT
+SELECT
 	p.productName,
     o.orderDate,
     od.quantityOrdered
