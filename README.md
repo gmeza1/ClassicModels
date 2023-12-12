@@ -12,3 +12,4 @@ ClassicModels Database and MySQL Queries
   - ClassicModels Top 10 Products Forecast.sql - contains code for [Top 10 Products Forecast Tableau Dashboard](https://public.tableau.com/views/ClassicModelsTop10ProductsForecast/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
   - ClassicModels Total Sales by Customer Country.sql - Query data was later modified in Tableau to create better visualization
     - Total Sales by Country.csv - contains the modified version of the data from the ClassicModels Total Sales by Customer Country.sql query. This data was used to create [Annual Product Total Sales by Country Tableau Dashboard](https://public.tableau.com/views/ClassicModelsAnnualProductTotalSalesbyCountry/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+  - ClassicModels Stored Procedures.sql - collection of stored procedures for Classic Models database
