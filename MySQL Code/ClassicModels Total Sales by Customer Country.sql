@@ -1,3 +1,9 @@
+USE classicmodels;
+
+-- changes field name of status to orderStatus, because status is a reserved word in MySQL
+ALTER TABLE orders
+CHANGE status orderStatus VARCHAR(15);
+
 /* Data extracted and saved to csv was later modified in Tableau to replace NULL values with $0 and 
 records were added to improve the Tableau dashboard visualizations */
 -- Obtain all orders with the customers country (Country, Product Name, Year of Order, Total Sales)

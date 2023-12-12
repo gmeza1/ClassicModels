@@ -1,3 +1,9 @@
+USE classicmodels;
+
+-- changes field name of status to orderStatus, because status is a reserved word in MySQL
+ALTER TABLE orders
+CHANGE status orderStatus VARCHAR(15);
+
 -- Obtain all individual orders for the top 10 quantity sold products (Product Name, Order Date, Quantity)
 WITH top_ten_products AS (  -- obtains top 10 products
 	SELECT 
