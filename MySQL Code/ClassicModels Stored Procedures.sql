@@ -51,7 +51,7 @@ DELIMITER ;
 
 CALL classicmodels.search_order_number('10127');
 
-/*Stored proceducre to search balance, credit limit, available credit, and other relevant information with the use of the customers phone # (numbers only eg:915559444)
+/*Stored procedure to search balance, credit limit, available credit, and other relevant information with the use of the customers phone # (numbers only eg:915559444)
 (Customer, balance, credit limit, available credit, contact first name, contact last name, customer phone #, employee #, sales rep first name, sales rep last name, extension, email) */
 DROP PROCEDURE IF EXISTS search_customer_balance_and_credit_by_phone_number;
 
